@@ -1,0 +1,72 @@
+CSS@font-face{
+	font-family: HeadingFont;
+	src: url(anaacesicc.ttf)
+	format(truetype);
+	 font-weight: 400
+	 font_style: normal;
+}
+
+@font-face{
+	font-family: BodyFont;
+	src: url(anaacesicc.ttf)
+	format(truetype)
+}
+
+
+
+body {
+	margin 0;
+	padding: 0;
+	background-image; url("../slike/pozadina.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: ce
+	font-family: Arial;
+	color: white;
+}
+
+
+
+/* NAVIGACIJA */
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav li a:hover {
+    color: #ffd700;
+}
+
+/* SADRŽAJ */
+.container {
+    width: 70%;
+    margin: 80px auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+img {
+    margin: 10px;
+    border-radius: 8px;
+}
